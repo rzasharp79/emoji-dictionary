@@ -20,13 +20,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         mainTable.delegate = self
     }
 
+    var emojis = ["🦍","🐿","🌹","🔥","🍐","🎹"]
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return emojis.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        cell.textLabel?.text = "Hello There!"
+        cell.textLabel?.text = "🌝"
         return cell
     }
     
