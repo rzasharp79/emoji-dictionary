@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KarmaChameleon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="KarmaChameleon" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="964" y="34.632683658170919"/>
         </scene>
-        <!--View Controller-->
+        <!--Definition View Controller-->
         <scene sceneID="qRB-XH-P51">
             <objects>
-                <viewController id="zSW-0N-KUr" sceneMemberID="viewController">
+                <viewController id="zSW-0N-KUr" customClass="DefinitionViewController" customModule="KarmaChameleon" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y27-vM-rRt"/>
                         <viewControllerLayoutGuide type="bottom" id="zKq-aE-4y8"/>
@@ -77,6 +77,10 @@
                             <constraint firstItem="ANH-Xv-PdO" firstAttribute="top" secondItem="SiR-Bz-3rn" secondAttribute="top" constant="40" id="lcA-DE-GHe"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="definitionLabel" destination="jdt-iH-o2f" id="rvU-9u-dbV"/>
+                        <outlet property="emojiPicture" destination="ANH-Xv-PdO" id="c6K-Yp-lmb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aCX-qe-OME" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
